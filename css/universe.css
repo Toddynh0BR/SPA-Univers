@@ -1,0 +1,44 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ font-size: 62.5%;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-image: url(../assets/bg2.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.universeTitle {
+ display: flex;
+ flex-direction: column;
+ gap: 2.6rem;
+ margin-left: 9rem;
+ margin-top: 12rem;
+}
+
+h1 {
+ font-size: 5rem;
+ font-weight: bold;
+ color: #E1E1E6;
+}
+
+p {
+ font-size: 1.8rem;
+ font-weight: 400;
+ color: #E1E1E6;
+ line-height: 160%;
+ opacity: .8;
+ width: 64.8rem;
+}
+
+.universe {
+ color: white;
+ font-weight: bold;
+}

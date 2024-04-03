@@ -1,0 +1,36 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ font-size: 62.5%;
+} 
+
+.nav {
+ display: flex;
+ align-items: center;
+ gap: 5rem;
+
+ margin-top: 3.5rem;
+ margin-left: 7rem;
+}
+
+a {
+ font-family: 'Roboto', sans-serif;
+ color: #C4C4CC;
+ font-size: 2.4rem;
+ text-decoration: none;
+ transition: .3s ease-in-out;
+}
+
+a:hover {
+ color: white;
+}
+
+.Active {
+ color: white;
+}
+
+

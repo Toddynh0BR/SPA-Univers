@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ font-size: 62.5%;
+}
+
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-image: url(../assets/bg1.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+h1 {
+ font-size: 5rem;
+ font-weight: bold;
+ color: #E1E1E6;
+}
+
+.aHome {
+ text-decoration: none;
+ font-size: 1.4rem;
+ font-weight: bold;
+ color: white;
+ border: 1px solid white;
+ padding: 1.4rem 3.4rem;
+ border-radius: .5rem;
+ transition: .5s ease-in-out;
+}
+
+.aHome:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.homeTitle {
+ display: flex;
+ gap: 3.5rem;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 23rem;
+}
+
+.home {
+ color: white;
+ font-weight: bold;
+}
